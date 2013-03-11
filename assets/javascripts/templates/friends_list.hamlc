@@ -1,0 +1,4 @@
+%h1 Your friends
+%label{:for => "#search"} Search
+%input.#search.searchbox
+%ul.#friends.friendlist

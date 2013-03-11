@@ -1,0 +1,25 @@
+@import "normalize";
+@import "compass";
+
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.auth-button {
+    width: 266px;
+    height: 45px;
+    font-size: 20px;
+    text-align: center;
+    line-height: 43px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    background-image: url("https://d3vp9zdgypbf1g.cloudfront.net/assets/buttons/join-f33c811fcc7e93f4fad6f110243513af.png")
+}
+.auth-button:hover {
+    background-position: 0 -45px;
+}
+
+.auth-button:active {
+    background-position: 0 -90px;
+}
